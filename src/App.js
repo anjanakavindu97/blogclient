@@ -1,8 +1,10 @@
-import './App.css';
-
+//pages
+import Home from "./pages/Home";
 function App() {
   return (
-    <div className="bg-red-500 text-center text-white">App component</div>
+    <div className="max-w-screen-md mx-auto pt-20">
+      <Home />
+    </div>
   );
 }
 
